@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "../Layouts/Menubar.css";
-import {Menu} from "lucide-react";
+import {Menu, User, University, BrainCog, FolderCode, Phone} from "lucide-react";
 
 const Menubar = () => {
     // Menu toggle handling
@@ -18,11 +18,11 @@ const Menubar = () => {
             </button>
             {isOpened && (
                 <ul className={`submenu ${isOpened ? "show" : ""}`}>
-                    <li className="bio">About me</li>
-                    <li className="education">Education</li>
-                    <li className="skills">Skills</li>
-                    <li className="project">Project</li>
-                    <li className="contact">Contact</li>
+                    <li className="bio"><User size={18}/>About me</li>
+                    <li className="education"><University size={18}/>Education</li>
+                    <li className="skills"><BrainCog size={18}/>Skills</li>
+                    <li className="project"><FolderCode size={18}/>Project</li>
+                    <li className="contact"><Phone size={18}/>Contact</li>
                 </ul>
             )}
         </>
