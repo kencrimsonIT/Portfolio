@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "../Layouts/Menubar.css";
-import {Menu, User, University, BrainCog, FolderCode, Phone} from "lucide-react";
+import {Menu, User, University, BrainCog, FolderCode, Contact} from "lucide-react";
 
 const Menubar = () => {
     // Menu toggle handling
@@ -22,7 +22,7 @@ const Menubar = () => {
                     <li className="education"><University size={20}/>Education</li>
                     <li className="skills"><BrainCog size={20}/>Skills</li>
                     <li className="project"><FolderCode size={20}/>Project</li>
-                    <li className="contact"><Phone size={20}/>Contact</li>
+                    <li className="contact"><Contact size={20}/>Contact</li>
                 </ul>
             )}
         </>
