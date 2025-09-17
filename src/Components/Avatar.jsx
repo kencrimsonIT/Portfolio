@@ -1,5 +1,5 @@
 import React from "react";
-import myAvatar from "../Avatar/3687fd4f-fe8d-4c80-8331-aa543de13ff0.jpg";
+import myAvatar from "../Avatar/profile_avatar.jpg";
 import "../Layouts/Avatar.css";
 
 const Avatar = () => {
