@@ -1,0 +1,78 @@
+ul {
+    list-style-type: none;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.contact-mail, .contact-phone, .contact-address {
+    margin: 30px;
+    cursor: text;
+    display: flex;
+    gap: 10px;
+    font-size: 1.05rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.contact-mail svg {
+    stroke: #ffff80;
+    background: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+.contact-phone svg {
+    stroke: #008080;
+    background: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+.contact-address svg {
+    stroke: #ff1c1c;
+    background: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+.contact-mail:hover, .contact-mail:hover svg {
+    background-color: #ffff80;
+    stroke: #1c1c1c;
+    color: #1c1c1c;
+    transition: all 0.3s ease;
+}
+
+.contact-phone:hover, .contact-phone:hover svg {
+    background-color: #008080;
+    stroke: #1c1c1c;
+    color: #1c1c1c;
+    transition: all 0.3s ease;
+}
+
+.contact-address:hover, .contact-address:hover svg {
+    background-color: #ff1c1c;
+    stroke: #1c1c1c;
+    color: #1c1c1c;
+    transition: all 0.3s ease;
+}
