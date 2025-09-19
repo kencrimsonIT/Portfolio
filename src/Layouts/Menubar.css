@@ -7,7 +7,7 @@ ul {
     padding-inline-start: 0;
 }
 
-li {
+.bio, .education, .skills, .project, .contact {
     display: flex;
     font-size: 1.1rem;
     cursor: pointer;
