@@ -10,12 +10,23 @@ const Home = () => {
             <Menubar />
             <div className="hero-section">
                 <Avatar />
-                <h1 className="full-name">Xin chào! Tôi là Tống Duy Kiên</h1>
-                <p className="department">Một newbie Full Stack Developer 🤓👨‍💻</p>
+                <h1 className="full-name">Tống Duy Kiên</h1>
+                <p className="department">Một newbie Software Engineer 🤓👨‍💻</p>
                 <div className="icon-container">
-                    <button className="facebook-btn"><Facebook size={20}/></button>
-                    <button className="github-btn"><Github size={20}/></button>
-                    <button className="linkedin-btn"><Linkedin size={20}/></button>
+                    {/*Facebook*/}
+                    <a href="https://www.facebook.com/tong.kien.5494360/" target="_blank" rel="noopener noreferrer">
+                        <button className="facebook-btn"><Facebook size={20}/></button>
+                    </a>
+
+                    {/*GitHub*/}
+                    <a href="https://github.com/kencrimsonIT" target="_blank" rel="noopener noreferrer">
+                        <button className="github-btn"><Github size={20}/></button>
+                    </a>
+
+                    {/*LinkedIn*/}
+                    <a href="https://www.linkedin.com/in/duy-ki%C3%AAn-t%E1%BB%91ng-35353a359/" target="_blank" rel="noopener noreferrer">
+                        <button className="linkedin-btn"><Linkedin size={20}/></button>
+                    </a>
                 </div>
             </div>
         </>
