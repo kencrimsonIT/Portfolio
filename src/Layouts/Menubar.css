@@ -17,6 +17,12 @@ ul {
     justify-content: flex-start;
 }
 
+.bio svg, .education svg, .skills svg, .project svg, .contact svg {
+    background: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
 /* Menu button */
 .menu-btn {
     border: none;
@@ -41,7 +47,7 @@ ul {
     left: 25px;
     width: 160px;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(250, 250, 250, 1);
+    box-shadow: 0 2px 8px rgba(250, 250, 250, 0.5);
     padding: 0;
     margin: 0;
     z-index: 1000;
@@ -50,12 +56,14 @@ ul {
     transition: opacity 0.3s ease, transform 0.3s ease;
     transform: translateY(-10px);
     overflow: hidden;
-
 }
 
 .submenu li {
     width: 100%;
     box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .submenu.show {
@@ -70,7 +78,6 @@ ul {
     color: #1c1c1c;
     stroke: #1c1c1c;
     background-color: #f5f5f5;
-    border-radius: 8px;
     transition: background-color 0.1s ease, color 0.1s ease, stroke 0.1s ease;
 }
 
@@ -79,7 +86,6 @@ ul {
     color: #1c1c1c;
     stroke: #1c1c1c;
     background-color: #f5f5f5;
-    border-radius: 8px;
     transition: background-color 0.1s ease, color 0.1s ease, stroke 0.1s ease;
 }
 
@@ -88,7 +94,6 @@ ul {
     color: #1c1c1c;
     stroke: #1c1c1c;
     background-color: #f5f5f5;
-    border-radius: 8px;
     transition: background-color 0.1s ease, color 0.1s ease, stroke 0.1s ease;
 }
 
@@ -97,7 +102,6 @@ ul {
     color: #1c1c1c;
     stroke: #1c1c1c;
     background-color: #f5f5f5;
-    border-radius: 8px;
     transition: background-color 0.1s ease, color 0.1s ease, stroke 0.1s ease;
 }
 
@@ -106,7 +110,6 @@ ul {
     color: #1c1c1c;
     stroke: #1c1c1c;
     background-color: #f5f5f5;
-    border-radius: 8px;
     transition: background-color 0.1s ease, color 0.1s ease, stroke 0.1s ease;
 }
 
