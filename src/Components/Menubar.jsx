@@ -18,11 +18,11 @@ const Menubar = () => {
             </button>
             {isOpened && (
                 <ul className={`submenu ${isOpened ? "show" : ""}`}>
-                    <li className="bio"><User size={20}/>About me</li>
-                    <li className="education"><University size={20}/>Education</li>
-                    <li className="skills"><BrainCog size={20}/>Skills</li>
-                    <li className="project"><FolderCode size={20}/>Project</li>
-                    <li className="contact"><Contact size={20}/>Contact</li>
+                    <li className="bio"><User size={20}/>Về tôi</li>
+                    <li className="education"><University size={20}/>Học vấn</li>
+                    <li className="skills"><BrainCog size={20}/>Kỹ năng</li>
+                    <li className="project"><FolderCode size={20}/>Dự án</li>
+                    <li className="contact"><Contact size={20}/>Liên hệ</li>
                 </ul>
             )}
         </>
