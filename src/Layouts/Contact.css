@@ -24,13 +24,13 @@ ul {
     display: flex;
     gap: 10px;
     font-size: 1.05rem;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.5);
     padding: 15px 30px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.07);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -54,25 +54,4 @@ ul {
     background: none !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-}
-
-.contact-mail:hover, .contact-mail:hover svg {
-    background-color: #ffff80;
-    stroke: #1c1c1c;
-    color: #1c1c1c;
-    transition: all 0.3s ease;
-}
-
-.contact-phone:hover, .contact-phone:hover svg {
-    background-color: #008080;
-    stroke: #1c1c1c;
-    color: #1c1c1c;
-    transition: all 0.3s ease;
-}
-
-.contact-address:hover, .contact-address:hover svg {
-    background-color: #ff1c1c;
-    stroke: #1c1c1c;
-    color: #1c1c1c;
-    transition: all 0.3s ease;
 }
